@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.5.1/DPlayer.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/dplayer/1.5.1/DPlayer.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/hls.js/0.8.9/hls.min.js" charset="utf-8"></script>
+</head>
+<style type="text/css">
+    body, html, .content {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        color: #999;
+        position: absolute;
+        overflow-y:hidden;
+    }
+</style>
+<body style="">
+<div class="content dplayer dplayer-no-danmaku" id="dplayer"></div>
+<script>!function(e,o){var t=parent.vod||"https://cdn.kuyunbo.club/20180810/6LihuNTB/index.m3u8",n=parent.provider||"",i="auto";if(0<t.indexOf(".m3u8"))i="hls";else{if(-1<t.search(/(\.youku\.com|\.qq\.com|\.sohu\.com|\.pptv|\.qiyi|\.mgtv\.com)/gi))return location.href="https://660e.com/?url="+encodeURIComponent(t);if(-1<n.search(/yun$/gi))return location.href=t}if("ontouchstart"in e){var r='<video src="'+t+'" controls="controls" poster="https://ww3.sinaimg.cn/large/666b529cly1fencv2uobwg20jq0dwq2z.gif" autoplay="autoplay" width="100%" height="100%"></video>';o.getElementById("dplayer").innerHTML=r}else new DPlayer({container:o.getElementById("dplayer"),autoplay:!0,video:{url:t,type:i},contextmenu:[{text:top.location.host,link:top.location.href}]})}(window,document);</script>
+</body>
+</html>
