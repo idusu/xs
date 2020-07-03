@@ -1,0 +1,164 @@
+<?php
+header('HTTP/1.1 404 Not Found');
+header("status: 404 Not Found");
+if(ord(core::$conf['app_name'][0]) % 2 == 0){
+?><!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content='5; url=/?from=<?=rawurlencode(misc::get_uri())?>'>
+    <title>404 Not Found</title>
+</head>
+<body>
+<style>
+    div {
+        text-align: center;
+        font-size: 2em;
+        margin: 20px auto;
+    }
+
+    a {
+        display: table;
+        margin: 0 auto;
+        text-decoration: none;
+        font-size: 0.5em;
+        color: #000;
+    }
+</style>
+<div>404 Not Found</div>
+<hr>
+<a href="/">5秒钟后返回首页</a>
+<div style="display: none">
+    <img src="/a.gif?404=<?=rawurlencode($_SERVER['REQUEST_URI'])?>" />
+    <script type="text/javascript" src="//js.users.51.la/20197603.js"></script>
+</div>
+</body>
+</html>
+<?php
+exit;
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>页面未找到 - <?=core::$conf['app_name']?></title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <style type="text/css">
+        a,
+        a:link,
+        a:visited,
+        a:active {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0086C6;
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: #FFF;
+            color: #333;
+            font: normal 12px Verdana, Sans-serif;
+            margin: 0px 0px 10px 0px;
+        }
+
+        * {
+            line-height: 200%;
+        }
+
+        hr {
+            border: dashed #D1D7DC 0px;
+            border-top-width: 1px;
+            height: 0px;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        td {
+            font: normal 14px Verdana, Sans-serif;
+        }
+
+        .overlook {
+            color: #666;
+        }
+
+        #desc {
+            color: #999;
+        }
+
+        .poweredby {
+            color: #999;
+            font-size: 12px;
+        }
+
+        table td {
+            padding: 50px 0 0 100px;
+
+        }
+
+        @media screen and (max-width: 420px) {
+            table td {
+                padding: 20px 10px 0;
+            }
+
+            p {
+                margin: 5px 0;
+            }
+
+            ul li {
+                line-height: 1.5;
+            }
+        }
+    </style>
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="20" style="max-width: 700px;">
+    <tr>
+        <td style="">
+            <DIV>
+                <img src="/img/logo.png" onerror="logoError(this,1)" width="200">
+            </DIV>
+            <span id="desc">HTTP 错误 404 - 文件或目录未找到。<br /></span>
+            对不起，您访问的页面可能已经删除、更名或暂时不可用，请单击<a href="//<?=$_SERVER['HTTP_HOST']?>/" style="font-weight:bold;"
+                                            id="backhref">这里</a>返回<?=core::$conf['app_name']?>。
+            <hr />
+            <p><span class="overlook"><?=core::$conf['app_name']?>尽力保证站点内有效链接和页面均正常运作，请尝试以下操作：</span></p>
+            <ul>
+                <li class="overlook">确保浏览器的地址栏中显示的网站地址的拼写和格式正确无误</li>
+                <li class="overlook">如果通过单击链接而到达了该网页，请与网站管理员联系<br />通知我们该链接的URL地址不正确。
+                </li>
+                <li class="overlook">尝试 F5 刷新页面。
+                </li>
+            </ul>
+            <p class="poweredby">Copyright &copy; 2009-<?=date('Y')?> <a href="//<?=$_SERVER['HTTP_HOST']?>/"
+                                                                         style="font-weight:bold;"><?=core::$conf['app_name']?>
+                （<?=$_SERVER['HTTP_HOST']?>）</a>. All rights reserved.
+            </p></td>
+    </tr>
+</table>
+<div style="display: none">
+    <img src="/a.gif?404=<?=rawurlencode($_SERVER['REQUEST_URI'])?>" />
+    <script>
+        var url = "//<?=$_SERVER['HTTP_HOST']?>/?from=" + location.href;
+        !function (n, e, r) {
+            n.getElementById("backhref").href = url, setTimeout(function () {
+                -1 == r.href.search(/from=/gi) && (r.href = url)
+            }, 5e3), e.logoError = function (e, r) {
+                if (1 == r) e.onerror = function () {
+                    logoError(e, 2)
+                }, e.src = "/img/logo.jpg"; else {
+                    e.style.display = "none";
+                    var o           = n.createElement("h2");
+                    o.innerText = "Sorry！找不到文件或目录", e.parentNode.replaceChild(o, e), desc.style.display = "none"
+                }
+            }
+        }(document, window, location);
+    </script>
+    <script type="text/javascript" src="//js.users.51.la/20197603.js"></script>
+</div>
+</body>
+</html>
