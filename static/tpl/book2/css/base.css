@@ -1,0 +1,66 @@
+/* Base Style */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, abbr, big, cite, code, del, em, font, img, ins, q, s, small, strong, sub, sup, tt, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, select, option, param {
+    margin: 0;
+    padding: 0;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+img {
+    border: 0;
+}
+
+/* html5 */
+section, article, aside, header, footer, nav, dialog, figure {
+    display: block;
+}
+
+/* text */
+input, label, select, option, textarea, button, fieldset, legend {
+    font-family: Tahoma, sans-serif;
+}
+
+/* a link */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* clear both */
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1;
+    display: inline-block;
+    _height: 1px
+}
+
+* html.clearfix {
+    height: 1%
+}
+
+* + html .clearfix {
+    height: 1%
+}
+
+.clearfix {
+    display: block
+}
+
+.clear {
+    clear: both;
+}

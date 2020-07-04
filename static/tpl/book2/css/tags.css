@@ -1,0 +1,452 @@
+
+a:hover {
+    color: #C00;
+}
+
+.no-border-top {
+    border-top: 0 none !important
+}
+
+.header,
+.header2 {
+    width: 990px;
+}
+
+.wrapper {
+    width: 990px;
+    margin: 10px auto;
+}
+
+.pageurl {
+    border-bottom: 1px solid #FFADC6;
+    height: 24px;
+    line-height: 24px;
+}
+
+.pageurl .navlink {
+    float: left;
+    width: 700px;
+}
+
+.pageurl .navlink a {
+    color: #F58
+}
+
+.pageurl .morelink {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+/* container */
+.container {
+    clear: both;
+}
+
+.container .left {
+    width: 750px;
+    float: left;
+}
+
+.container .left .commend {
+    width: 240px;
+    float: left;
+}
+
+.container .left .common {
+    width: 500px;
+    float: right;
+}
+
+.container .right {
+    width: 230px;
+    float: right;
+}
+
+/* end container */
+
+.layout-panel {
+    border: 1px solid #CECECE;
+}
+
+.layout-panel .panel-name {
+    font-size: 14px;
+    color: #C00;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    display: block;
+    background: url(../images/panel_name.gif) repeat-x scroll 0 0;
+}
+
+.layout-panel .panel-name a {
+    color: #C00;
+}
+
+.layout-panel .panel-name .more {
+    float: right;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.bookstore {
+    border: 1px solid #CCC;
+}
+
+.bookstorbt {
+    height: 29px;
+    background: url(../images/bt2bg2.gif) repeat-x left bottom;
+}
+
+.bookstorbt1 {
+    height: 29px;
+    line-height: 29px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    float: left;
+}
+
+.bookstorbt2 {
+    height: 18px;
+    text-align: right;
+    padding: 8px 15px 0px 0px;
+    float: right
+}
+
+.bookstore-select {
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 10px;
+    line-height: 25px;
+    clear: both;
+    font-size: 12px;
+}
+
+.bookstore-select a {
+    padding: 2px;
+}
+
+.bookstore-select a.on {
+    color: #FFF;
+    background-color: #0099D8;
+}
+
+/* tops_mod */
+.tops_mod {
+    border: 1px solid #CECECE;
+}
+
+.tops_mod .mod_title {
+    background: url(../images/panel_name.gif) repeat-x scroll;
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 1px 5px 0 7px;
+}
+
+.tops_mod .mod_title h2 {
+    background: url(../images/arrow_right.gif) no-repeat scroll 5px 8px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.tops_mod .mod_container {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.tops_list {
+    overflow: hidden;
+}
+
+.tops_list li {
+    background: url(../images/dot.gif) no-repeat scroll 4px 12px;
+    border-bottom: 1px dotted #DDD;
+    font-size: 14px;
+    height: 35px;
+    line-height: 25px;
+    overflow: hidden;
+    padding: 5px 0 2px 18px;
+}
+
+.tops_list li:last-child {
+    border-bottom: 0 none;
+}
+
+/* end tops_mod */
+
+/* focus */
+.focus {
+    background: url(../images/focusbg.gif) repeat-x scroll;
+    border: 1px solid #D0D0D0;
+    overflow: hidden;
+}
+
+.focus h2 {
+    background: url(../images/focus_title.gif) no-repeat 0px -5px;
+    border-bottom: 1px solid #C7B9B0;
+    font-size: 14px;
+    height: 28px;
+    padding: 5px 0 0 25px;
+}
+
+.focus h2 .more {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 8px;
+}
+
+.focus h2 .more a {
+    color: #C7B9B0;
+}
+
+.focus h2 span, .focus h2 span a {
+    color: #C00;
+}
+
+.focus .first {
+    padding: 10px;
+    height: 218px;
+    border-bottom: 1px dotted #DBDBDB
+}
+
+.focus .first .pic {
+    float: left;
+    overflow: hidden;
+}
+
+.focus .first .pic img {
+    border: 1px solid #CCC;
+    padding: 2px
+}
+
+.focus .first .pic a:hover img {
+    background-color: #FC0;
+}
+
+.focus .first .text {
+    width: 300px;
+    float: right;
+}
+
+.focus .first .text h3 {
+    text-align: center;
+    background-color: #FDEED9;
+    line-height: 33px;
+    height: 33px;
+}
+
+.focus .first .text h3 a {
+    color: #C00
+}
+
+.focus .first .text p {
+    color: #777;
+    line-height: 28px;
+    padding: 2px
+}
+
+.focus .first .text p a {
+    color: #F60;
+}
+
+.focus .items {
+    padding: 9px 10px;
+    height: 250px;
+}
+
+.focus .items .pictext {
+    float: left;
+    width: 235px;
+    height: 125px;
+}
+
+.focus .items .pictext .pic {
+    float: left;
+    width: 88px;
+}
+
+.focus .items .pictext .pic img {
+    border: 1px solid #CCC;
+    padding: 2px;
+}
+
+.focus .items .pictext .pic a:hover img {
+    background-color: #FC0;
+}
+
+.focus .items .pictext .text {
+    width: 130px;
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.focus .items .pictext .text h3 {
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.focus .items .pictext .text h3 a {
+    color: #C00
+}
+
+.focus .items .pictext .text p {
+    color: #777;
+    line-height: 18px;
+}
+
+.focus .items .pictext .text p a {
+    color: #F60;
+}
+
+/* end focus */
+
+.tag-comm-info {
+    background-color: #FBFEFB;
+    border: 1px solid #D2E3F7;
+    padding: 12px 10px 12px 18px;
+}
+
+.tag-comm-info .tag-tit {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.tag-comm-info .tag-txt {
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+}
+
+.foot_tj {
+    background-color: #FBFEFB;
+    border: 1px solid #D2E3F7;
+    line-height: 25px;
+    padding: 12px 10px 12px 18px;
+}
+
+.foot_tj a {
+    color: #1C3D72;
+    padding-right: 15px;
+}
+
+/* update */
+.update {
+    background: #FFF;
+}
+
+.update table {
+    table-layout: fixed;
+}
+
+.update td {
+    line-height: 29px;
+    height: 29px;
+    border-bottom: 1px dotted #D5D5D5;
+}
+
+.update .list-header td {
+    font-weight: bold;
+}
+
+.update .updated {
+    color: #444;
+    text-align: center;
+}
+
+.update .cate {
+    text-align: center;
+}
+
+.update .book-name {
+    font-size: 12px;
+    color: #C00;
+}
+
+.update .book-name a {
+    font-size: 12px;
+    color: #C00;
+}
+
+.update .book-article-title {
+    width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+.update .book-article-title div {
+    width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* end update */
+
+/* ls_mod */
+.ls_mod {
+    overflow: hidden;
+    border: 1px solid #CECECE;
+}
+
+.ls_mod .mod_title {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px 8px;
+    overflow: hidden;
+    background: url(../images/indexbar.png) no-repeat scroll right -228px transparent
+}
+
+.ls_mod .mod_title .title {
+    float: left;
+    background: url(../images/mianbar.png) no-repeat left -348px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-weight: bold
+}
+
+.ls_mod .mod_title .more {
+    float: right;
+}
+
+.ls_mod .mod_title .more a {
+    color: #888
+}
+
+.ls_mod .mod_title .par {
+    color: #888;
+    padding-left: 10px
+}
+
+.ls_mod .mod_container {
+    padding: 10px;
+    overflow: hidden
+}
+
+.ls_list {
+    background: url(../images/mianbar.png) no-repeat 0 -597px;
+    overflow: hidden
+}
+
+.ls_list li {
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    padding-left: 24px;
+}
+
+.ls_list li.t {
+    border-bottom: 1px dotted #E1E1E1;
+    height: 26px !important;
+    line-height: 27px !important;
+    overflow: hidden;
+    width: 200px;
+}
+
+/* end ls_mod */

@@ -1,0 +1,1768 @@
+/* book_detail_v2.css
+ * Created : 2014-04-23
+ * Update  : 2015-10-20
+ * Author  : Rambo
+ */
+.abook_contents_list li.vip {
+    background: url(../images/skin_catalog_v2.png) no-repeat;
+}
+
+.comment .commentForm .textareaCon .iTextareasarrow, .comment .commentForm .funBtn .faceBtn .iIcon, .comment .commentForm .funBtn .pRight .submitBtn, .comment .commentReply .iCommentReplysarrow, .faceList .isarrow, .faceList .faceListCon .tit .aCloseBtn {
+    background: url(../images/comment_v2.png) no-repeat;
+}
+
+.comment .commentTxtList dl dd .sName em.author .i_author2, .abook .tit_bg .state, .abook .cover a.dw_share i, .abook .cover .commentThis i, .abook .cover .recommendThis i, .abook .summary .keyword .report i, .abook .summary .lastRead .lastIcon, .abook .summary .noUsed-tips .lastIcon, .abook .summary .op_area .alink_ops a i, .abook .summary .op_area .alink_ops .pop-appTg .close, .rewardCon .giftList .gifePic .iLine, .rewardCon .giftList .gifeInfor dl dd .rewardBtn {
+    background: url(../images/skin_book_detail_v2.png) no-repeat;
+}
+
+.icon_android, .icon_iphone, .icon_qrcode {
+    background-image: url(../images/icon_download_1.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.icon_android {
+    background-position: 0 0;
+}
+
+.icon_iphone {
+    background-position: -15px 0;
+}
+
+.icon_qrcode {
+    background-position: -30px 0;
+}
+
+/**
+ * Files Call [book_detail_v2.scss, book_reward_v2.scss]
+ *
+ */
+.comment {
+    padding: 0 30px;
+}
+
+.comment .mt10 {
+    margin-top: 10px;
+}
+
+.comment .commentTit {
+    line-height: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.comment .commentTit .sMark {
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+    float: left;
+    color: #333;
+    font-weight: normal;
+}
+
+.comment .commentTit .sMark a {
+    color: #3193CF;
+}
+
+.comment .commentTit .sMark a:hover {
+    color: #F60;
+}
+
+.comment .commentForm {
+    background-color: #F8F8F8;
+    border: 1px solid #F1F1F1;
+    padding: 15px 20px;
+    position: relative;
+    *zoom: 1;
+}
+
+.comment .commentForm .task-link {
+    position: absolute;
+    right: 25px;
+    top: 17px;
+}
+
+.comment .commentForm .starScore {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.comment .commentForm .starScore .sMark {
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.comment .commentForm .starScore .pStarList {
+    float: left;
+}
+
+.comment .commentForm .starScore .pStarList img {
+    float: left;
+}
+
+.comment .commentForm .starScore .sTips {
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.comment .commentForm .sReplyName {
+    display: block;
+    line-height: 22px;
+    height: 22px;
+    padding-bottom: 5px;
+}
+
+.comment .commentForm .sReplyName em {
+    color: #333;
+    font-weight: 700;
+}
+
+.comment .commentForm .textareaCon {
+    border: 1px solid #D8D8D8;
+    padding: 3px 5px;
+    background-color: #FFF;
+    position: relative;
+}
+
+.comment .commentForm .textareaCon .iTextareasarrow {
+    position: absolute;
+    background-position: -189px -19px;
+    width: 11px;
+    height: 7px;
+    right: 5px;
+    _right: 4px;
+    top: -7px;
+    _top: -6px;
+    overflow: hidden;
+}
+
+.comment .commentForm .textareaCon .commentTxt {
+    color: #999;
+    line-height: 22px;
+    height: 82px;
+    width: 100%;
+    background-color: #FFF;
+    border: 0 none;
+    resize: none;
+}
+
+.comment .commentForm .textareaCon .commentTxt em {
+    color: #333;
+}
+
+.comment .commentForm .funBtn {
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.comment .commentForm .funBtn .faceBtn {
+    float: left;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 5px;
+    overflow: hidden;
+    border: 1px solid #E8E8E8;
+    background-color: #F8F8F8;
+    color: #3193CF;
+    margin-top: 2px;
+    display: inline;
+}
+
+.comment .commentForm .funBtn .faceBtn:hover {
+    border-color: #B2B2B2;
+    color: #3193CF;
+    text-decoration: none;
+}
+
+.comment .commentForm .funBtn .faceBtn .iIcon {
+    float: left;
+    background-position: -101px 0;
+    width: 18px;
+    height: 16px;
+    overflow: hidden;
+    margin: 5px 2px 0 0;
+    display: inline;
+}
+
+.comment .commentForm .funBtn .sName {
+    float: left;
+    font-weight: 700;
+    color: #333;
+    padding-left: 10px;
+}
+
+.comment .commentForm .funBtn .pNoLogin {
+    float: left;
+    font-size: 12px;
+}
+
+.comment .commentForm .funBtn .pNoLogin a {
+    color: #3193CF;
+    text-decoration: underline;
+}
+
+.comment .commentForm .funBtn .pNoLogin a:hover {
+    color: #F60;
+}
+
+.comment .commentForm .funBtn .pRight {
+    float: right;
+}
+
+.comment .commentForm .funBtn .pRight .sDes {
+    color: #666;
+    float: left;
+    padding-right: 10px;
+}
+
+.comment .commentForm .funBtn .pRight .sDes em {
+    color: #F60;
+}
+
+.comment .commentForm .funBtn .pRight .submitBtn {
+    border: 0 none;
+    background-position: 0 0;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.comment .commentForm .funBtn .pRight .submitBtn:hover {
+    color: #333;
+    text-decoration: none;
+    background-position: 0 -31px;
+}
+
+.comment .commentNo {
+    font-size: 16px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.comment .commentTxtList {
+    border-top: 1px solid #E4E4E4;
+}
+
+.comment .commentTxtList dl dt {
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    padding: 10px 0 0 2px;
+    position: relative;
+}
+
+.comment .commentTxtList dl dt img {
+    display: block;
+    vertical-align: top;
+}
+
+.comment .commentTxtList dl dd {
+    border-top: 1px solid #E4E4E4;
+    margin-top: -40px;
+    padding: 10px 0 10px 42px;
+    *zoom: 1;
+}
+
+.comment .commentTxtList dl dd.noBorder {
+    border-top: 0 none;
+}
+
+.comment .commentTxtList dl dd .sName {
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.comment .commentTxtList dl dd .sName em {
+    color: #333;
+    font-weight: 700;
+}
+
+.comment .commentTxtList dl dd .sName em.emYellow {
+    color: #F60;
+    font-weight: 100;
+}
+
+.comment .commentTxtList dl dd .sName em.author {
+    color: #F60;
+}
+
+.comment .commentTxtList dl dd .sName em.author .i_author2 {
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 59px;
+    height: 16px;
+    position: relative;
+    vertical-align: top;
+    top: 8px;
+    *top: 0px;
+    _top: -1px;
+    margin-right: 5px;
+    background-position: 0 -185px;
+}
+
+.comment .commentTxtList dl dd .pTxt {
+    color: #666;
+    line-height: 24px;
+}
+
+.comment .commentTxtList dl dd .pTxt img {
+    vertical-align: middle;
+}
+
+.comment .commentTxtList dl dd .pFun {
+    text-align: right;
+    line-height: 22px;
+}
+
+.comment .commentTxtList dl dd .pFun .sTime {
+    padding-right: 12px;
+    color: #999;
+}
+
+.comment .commentTxtList dl dd .pFun a {
+    color: #3193CF;
+}
+
+.comment .commentTxtList dl dd .pFun a:hover {
+    color: #F60;
+}
+
+.comment .commentReply {
+    background-color: #F8F8F8;
+    border: 1px solid #F1F1F1;
+    margin-top: 10px;
+    position: relative;
+    *zoom: 1;
+    z-index: 10;
+}
+
+.comment .commentReply .iCommentReplysarrow {
+    position: absolute;
+    background-position: -189px -11px;
+    width: 11px;
+    height: 7px;
+    right: 5px;
+    _right: 4px;
+    top: -7px;
+    _top: -6px;
+    overflow: hidden;
+}
+
+.comment .commentReply .commentForm {
+    border: 0 none;
+}
+
+.comment .commentReply .commentForm .textareaCon .commentTxt {
+    height: 54px;
+}
+
+.comment .commentReply dl {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 15;
+}
+
+.comment .commentReply dl .commentForm {
+    padding: 5px 0;
+}
+
+.comment .commentReply dl .funBtn {
+    padding-top: 10px;
+}
+
+.page {
+    padding-bottom: 30px;
+}
+
+.faceList {
+    position: absolute;
+    z-index: 999;
+    padding: 3px;
+    background: url(../images/facelistbg_v2.png) repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src=../images/ facelistbg_v2.png);
+}
+
+.faceList .isarrow {
+    background-position: -189px 0;
+    width: 11px;
+    height: 10px;
+    position: absolute;
+    left: 23px;
+    top: -6px;
+}
+
+.faceList .faceListCon {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    width: 262px;
+}
+
+.faceList .faceListCon .tit {
+    background-color: #F8F8F8;
+    height: 39px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 10px 0 15px;
+    border-bottom: 1px solid #CCC;
+}
+
+.faceList .faceListCon .tit .sMark {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+
+.faceList .faceListCon .tit .aCloseBtn {
+    background-position: -188px -27px;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    float: right;
+    display: inline;
+    margin-top: 13px;
+}
+
+.faceList .faceListCon .pFaceList {
+    padding: 15px 0 15px 15px;
+}
+
+.faceList .faceListCon .pFaceList a {
+    width: 26px;
+    height: 26px;
+    background-color: #FFF;
+    padding: 3px;
+    float: left;
+    border: 1px solid #E8E8E8;
+    overflow: hidden;
+    margin: -1px 0 0 -1px;
+}
+
+.faceList .faceListCon .pFaceList a img {
+    float: left;
+}
+
+.faceList .faceListCon .pFaceList a:hover {
+    border-color: #B2B2B2;
+    position: relative;
+}
+
+.abook .tit_bg .tit, .section_list .hd h3, .rewardCon .newsList .sMark, .rewardCon .giftList .gifeInfor dl dd .rewardBtn {
+    font-family: Microsoft Yahei;
+}
+
+/* path */
+.path {
+    position: relative;
+    margin: 12px auto;
+    font-size: 12px;
+    color: #999;
+    width: 990px;
+}
+
+.path i {
+    margin: 0 5px;
+    font-family: simsun;
+}
+
+.path a {
+    color: #999;
+}
+
+.path a:hover {
+    color: #F30;
+}
+
+.path .sub_link {
+    color: #2D87CC;
+}
+
+.path .rec_link {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.path .rec_link a {
+    margin-left: 10px;
+    color: #2D87CC;
+}
+
+.path .rec_link a:hover {
+    color: #F30;
+}
+
+.path {
+    margin-top: -3px;
+}
+
+.container {
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    margin-bottom: 20px;
+    *zoom: 1;
+    position: relative;
+    background: #F8F8F8;
+}
+
+.container .container-fix {
+    margin-right: 214px;
+    background: #FFF;
+    height: 100%;
+    _height: 1px;
+    border-right: 1px solid #D6D6D6;
+    zoom: 1;
+    position: relative;
+}
+
+.container .container-fix .shadow {
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    left: 775px;
+    top: 0;
+    background: url(../images/col_b_shadow24_v2.png) repeat-y;
+    z-index: 2;
+    _display: none;
+}
+
+.col_a {
+    float: left;
+    border-top: 1px solid #D6D6D6;
+    min-height: 824px;
+    _height: 824px;
+    zoom: 1;
+}
+
+.col_b {
+    float: right;
+    width: 214px;
+    background: #F8F8F8;
+    position: relative;
+    height: 100%;
+    _height: 1px;
+    margin-right: -215px;
+    zoom: 1;
+    *right: -1px;
+}
+
+.col_b .ds_bcont {
+    width: 160px;
+    margin: 0 auto 15px;
+}
+
+.abook {
+    padding: 0 25px 44px 18px;
+    background: #F8F8F8;
+    border-bottom: 1px solid #D6D6D6;
+    *zoom: 1;
+}
+
+.abook .tit_bg {
+    height: 68px;
+    text-align: center;
+    position: relative;
+}
+
+.abook .tit_bg .tit {
+    height: 60px;
+    font-size: 28px;
+    line-height: 60px;
+    font-weight: normal;
+    color: #333;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+}
+
+.abook .tit_bg .state {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: -18px;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    color: #FFF;
+    text-indent: -999em;
+    background-position: 0 -294px;
+}
+
+.abook .tit_bg .complete {
+    background-position: 0 -229px;
+}
+
+.abook .tit_bg a.c-red {
+    position: absolute;
+    right: 6px;
+    top: 21px;
+    text-decoration: underline;
+}
+
+.abook .tit_bg .author-tit {
+    position: absolute;
+    right: 6px;
+    top: 21px;
+}
+
+.abook .tit_bg .author-tit .author {
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: right;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+    word-wrap: normal;
+}
+
+.abook .tit_bg .author-tit .author a {
+    color: #666;
+}
+
+.abook .tit_bg .author-tit .author a:hover {
+    color: #F30;
+}
+
+.abook .tit_bg .author-tit .authorize {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+}
+
+.abook .tit_bg a.task-link {
+    position: absolute;
+    right: 6px;
+    top: 21px;
+}
+
+.abook .cover {
+    float: left;
+    width: 175px;
+    position: relative;
+}
+
+.abook .cover .dw_share_box {
+    margin-top: 20px;
+}
+
+.abook .cover a.dw_share i {
+    width: 12px;
+    height: 11px;
+    display: inline-block;
+    background-position: 0 0;
+    background-position: -21px 0;
+    margin-right: 2px;
+}
+
+.abook .cover a.dw_share:hover i {
+    background-position: -21px -18px;
+}
+
+.abook .cover a:hover {
+    text-decoration: none;
+}
+
+.abook .cover .imgbox {
+    margin-bottom: 8px;
+}
+
+.abook .cover .auth {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#80000000, EndColorStr=#80000000);
+    height: 22px;
+    line-height: 22px;
+    color: #FFF;
+    position: absolute;
+    top: 206px;
+    width: 175px;
+}
+
+.ie9 .abook .cover .auth {
+    filter: none;
+}
+
+:root .abook .cover .auth {
+    filter: none\9 \0;
+}
+
+.abook .cover .auth a {
+    color: #FFF;
+}
+
+.abook .cover .auth a:hover {
+    color: #F30;
+}
+
+.abook .cover .commentThis, .abook .cover .recommendThis {
+    width: 173px;
+    height: 30px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+    line-height: 30px;
+}
+
+.abook .cover .commentThis i, .abook .cover .recommendThis i {
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    background-position: 0 -38px;
+}
+
+.abook .cover .commentThis a, .abook .cover .recommendThis a {
+    display: inline-block;
+}
+
+.abook .cover .recommendThis i {
+    background-position: -45px -38px;
+    width: 15px;
+    height: 16px;
+}
+
+.abook .cover .free-mark {
+    width: 173px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 101px;
+    left: 23px;
+    background: url(../images/timed_mark.png) no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src=../images/ timed_mark.png);
+}
+
+.abook .summary {
+    float: right;
+    width: 520px;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.abook .summary .info {
+    overflow: hidden;
+    border-bottom: 1px dashed #D8D8D8;
+    padding-bottom: 10px;
+}
+
+.abook .summary .info li {
+    overflow: hidden;
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    font-size: 12px;
+    width: 130px;
+}
+
+.abook .summary .info li .type {
+    color: #999;
+}
+
+.abook .summary .info li a {
+    color: #666;
+}
+
+.abook .summary .info li a:hover {
+    color: #F30;
+}
+
+.abook .summary .desc {
+    overflow: hidden;
+    height: auto;
+    padding: 10px 0;
+    margin-bottom: 9px;
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.abook .summary .keyword {
+    overflow: hidden;
+    line-height: 21px;
+    height: 25px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.abook .summary .keyword .report {
+    float: right;
+    color: #F30;
+}
+
+.abook .summary .keyword .report i {
+    float: left;
+    overflow: hidden;
+    width: 10px;
+    height: 13px;
+    background-position: -20px -211px;
+    margin: 4px 5px 0 0;
+}
+
+.abook .summary .keyword .type {
+    float: left;
+    color: #999;
+}
+
+.abook .summary .keyword a {
+    float: left;
+    height: 21px;
+    margin: 0 11px 4px 0;
+    font-size: 12px;
+    color: #2D87CC;
+    white-space: nowrap;
+}
+
+.abook .summary .keyword a:hover {
+    color: #F30;
+    text-decoration: none;
+}
+
+.abook .summary .lastRead, .abook .summary .noUsed-tips {
+    height: 22px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    font-size: 12px;
+    background: #FFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+}
+
+.abook .summary .lastRead .lastIcon, .abook .summary .noUsed-tips .lastIcon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    overflow: hidden;
+    margin: 3px 5px 0 0;
+    background-position: -37px 0;
+}
+
+.abook .summary .lastRead .type, .abook .summary .noUsed-tips .type {
+    color: #999;
+}
+
+.abook .summary .lastRead .sub_link, .abook .summary .noUsed-tips .sub_link {
+    color: #666;
+    font-weight: bold;
+}
+
+.abook .summary .lastRead .sub_link:hover, .abook .summary .noUsed-tips .sub_link:hover {
+    color: #F30;
+}
+
+.abook .summary .noUsed-tips {
+    background: #FFFCF0;
+    border-color: #EBE1C5;
+    color: #F30;
+    margin-bottom: 0;
+    margin-top: 15px;
+    *margin-top: 19px;
+}
+
+.abook .summary .noUsed-tips .type {
+    color: #333;
+}
+
+.abook .summary .op_area {
+    position: relative;
+}
+
+.abook .summary .op_area .or-tooltips {
+    left: 247px;
+    top: 45px;
+    font-size: 12px;
+}
+
+.abook .summary .op_area .alink {
+    float: left;
+}
+
+.abook .summary .op_area .alink a {
+    float: left;
+    width: 108px;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    margin-right: 10px;
+    position: relative;
+}
+
+.abook .summary .op_area .alink a.btn_A {
+    width: 150px;
+    *filter: none;
+    background: #FB812D \9;
+}
+
+.abook .summary .op_area .alink a.btn_A:hover {
+    background: #ED6F21 \9;
+}
+
+.abook .summary .op_area .alink a.btn_B {
+    background: #3599D4 \9;
+}
+
+.abook .summary .op_area .alink a.btn_B:hover {
+    background: #2D8BC9 \9;
+}
+
+.abook .summary .op_area .alink a .qrcode_box1 {
+    position: absolute;
+    top: -144px;
+    left: 12px;
+    display: none;
+}
+
+.abook .summary .op_area .uncheck a {
+    width: auto;
+    padding: 0 25px;
+}
+
+.abook .summary .op_area .alink_ops {
+    float: left;
+    height: 17px;
+    padding: 16px 0px 0;
+    font-size: 12px;
+    line-height: 17px;
+    position: relative;
+}
+
+.abook .summary .op_area .alink_ops a, .abook .summary .op_area .alink_ops em {
+    float: left;
+}
+
+.abook .summary .op_area .alink_ops a {
+    color: #666;
+}
+
+.abook .summary .op_area .alink_ops a:hover {
+    color: #F30;
+    text-decoration: none;
+}
+
+.abook .summary .op_area .alink_ops a i {
+    float: left;
+    overflow: hidden;
+    background-position: 0 0;
+    margin: 4px 2px 0 0;
+}
+
+.abook .summary .op_area .alink_ops a.dw_desktop i {
+    background-position: 0 0;
+    width: 11px;
+    height: 11px;
+}
+
+.abook .summary .op_area .alink_ops a.dw_desktop:hover i {
+    background-position: 0 -18px;
+}
+
+.abook .summary .op_area .alink_ops a.dw_share i {
+    background-position: -21px 0;
+    width: 12px;
+    height: 11px;
+}
+
+.abook .summary .op_area .alink_ops a.dw_share:hover i {
+    background-position: -21px -18px;
+}
+
+.abook .summary .op_area .alink_ops a.dw_join i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.abook .summary .op_area .alink_ops a.dw_join:hover i {
+}
+
+.abook .summary .op_area .alink_ops a.dw_join.disabled {
+    color: #BBB;
+    cursor: default;
+}
+
+.abook .summary .op_area .alink_ops a.dw_join.disabled i {
+}
+
+.abook .summary .op_area .alink_ops .line {
+    color: #D9D9D9;
+    margin: 0 10px;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg {
+    position: absolute;
+    left: -208px;
+    top: -75px;
+    z-index: 2;
+    width: 178px;
+    height: 214px;
+    border: 1px solid #C9C9C9;
+    background: #FFF;
+    text-align: center;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg .close {
+    position: absolute;
+    top: -21px;
+    right: -1px;
+    width: 21px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    background-position: -21px -38px;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg img {
+    margin-top: 15px;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg p {
+    font-family: Microsoft yahei;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    line-height: 160%;
+    padding-top: 5px;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg p span {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.abook .summary .op_area .alink_ops .pop-appTg p span b {
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+}
+
+.abook .summary .op_area .alink_ops .give-mon {
+    left: 0;
+    top: 38px;
+}
+
+.abook .summary .op_area .alink_ops .give-mon b {
+    font-weight: bold;
+}
+
+.abook .summary .text-linkP {
+    line-height: 18px;
+    padding-top: 8px;
+}
+
+.abook .summary .text-linkP a {
+    text-decoration: underline;
+}
+
+.download_box {
+    border-bottom: 1px solid #D6D6D6;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-family: simsun;
+    position: relative;
+    z-index: 999;
+}
+
+.download_box dt, .download_box dd {
+    float: left;
+}
+
+.download_box dt em, .download_box dd em {
+    position: absolute;
+}
+
+.download_box dt {
+    position: relative;
+    width: 166px;
+    background: #59A7D7;
+    color: #FFF;
+}
+
+.download_box dt .sarrow {
+    width: 0;
+    height: 0;
+    right: -5px;
+    top: 13px;
+    font-size: 0;
+    line-height: 0;
+    border: 5px dotted transparent;
+    border-left: 5px solid #59A7D7;
+    border-right: 0 none;
+}
+
+.download_box dd {
+    position: relative;
+    width: 202px;
+}
+
+.download_box dd a {
+    position: relative;
+    padding-left: 19px;
+}
+
+.download_box dd a i {
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.download_box dd a .qrcode {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 999;
+}
+
+.download_box dd .line {
+    height: 16px;
+    width: 1px;
+    background-color: #DFDFDF;
+    right: 0;
+    top: 9px;
+}
+
+/* abook_contents */
+.abook_contents {
+    padding: 5px 0 0;
+}
+
+.abook_contents .total {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.abook_contents .total .all_view {
+    display: inline-block;
+    overflow: hidden;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 18px;
+    font-family: simsun;
+}
+
+.abook_contents .total .all_view:hover {
+    text-decoration: none;
+}
+
+.section_list {
+    padding: 10px 30px;
+}
+
+.section_list .hd {
+    overflow: hidden;
+    position: relative;
+}
+
+.section_list .hd h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+
+.section_list .hd .task-link {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.section_list .bd {
+    *zoom: 1;
+}
+
+.abook_contents_list {
+    overflow: hidden;
+}
+
+.abook_contents_list li {
+    float: left;
+    display: inline;
+    width: 319px;
+    height: 41px;
+    line-height: 41px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    padding-left: 37px;
+    border-bottom: 1px dashed #DFDFDF;
+}
+
+.abook_contents_list li a {
+    color: #333;
+}
+
+.abook_contents_list li a:hover {
+    color: #F30;
+    text-decoration: none;
+}
+
+.abook_contents_list li.vip {
+    background-position: -63px 15px;
+}
+
+/*book_img*/
+.book_img {
+    padding: 0 20px;
+}
+
+.book_img .hd {
+    margin-bottom: 16px;
+    height: 36px;
+    line-height: 36px;
+    background: #F5F5F5;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.book_img .hd h3 {
+    color: #333;
+}
+
+.book_img .hd em {
+    color: #2D87CC;
+    font-weight: bold;
+}
+
+.book_img .mod_bd {
+    padding: 0 19px;
+    overflow: hidden;
+}
+
+.book_img .img_list {
+    width: 733px;
+    overflow: hidden;
+}
+
+.book_img .img_list ul {
+    margin: 0 -13px 0 -11px;
+}
+
+.book_img .img_list ul li {
+    width: 100px;
+    margin: 0 13px 7px 13px;
+}
+
+.mod_rank .spec {
+    color: #F30 !important;
+}
+
+.mod_rank .hd {
+    background: #FFF;
+    padding: 10px 0 0 15px;
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    border-right: none;
+    height: 45px;
+    line-height: 30px;
+    padding-top: 9px;
+}
+
+.mod_rank .mod_con .num {
+    font-size: 12px;
+    font-family: Tahoma;
+    background: none;
+    color: #999;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.mod_rank .mod_con .hot {
+    color: #FF7920;
+}
+
+.flower-rank .hd {
+    position: relative;
+}
+
+.flower-rank .f-tab {
+    position: absolute;
+    right: 5px;
+    top: 11px;
+}
+
+.flower-rank .f-tab a {
+    float: left;
+    height: 28px;
+    padding: 0 7px;
+    line-height: 28px;
+    color: #333;
+}
+
+.flower-rank .f-tab a:hover {
+    color: #F30;
+    text-decoration: none;
+}
+
+.flower-rank .f-tab a.cur {
+    background-color: #F8F8F8;
+    border: 1px solid #E1E1E1;
+    border-top-color: #C2C2C2;
+    border-bottom-color: #F8F8F8;
+}
+
+.bookFriend-rank .bd {
+    padding-top: 0;
+}
+
+.bookFriend-rank .list-th {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color: #999;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 5px;
+}
+
+.bookFriend-rank .list-th .l {
+    float: left;
+    padding-left: 10px;
+}
+
+.rewardCon {
+    border-top: 1px solid #E1E1E1;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.rewardCon .newsList {
+    padding-left: 10px;
+    width: 200px;
+    float: left;
+}
+
+.rewardCon .newsList .sMark {
+    font-size: 18px;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.rewardCon .newsList ul li {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    border-top: 1px dotted #D7D7D7;
+}
+
+.rewardCon .newsList ul li .sName {
+    color: #444;
+    padding-right: 12px;
+}
+
+.rewardCon .newsList ul li .sDes {
+    color: #999;
+}
+
+.rewardCon .newsList ul li .sDes em {
+    color: #F30;
+}
+
+.rewardCon .newsList .sMore {
+    font-family: simsun;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+    border-top: 1px dotted #D7D7D7;
+}
+
+.rewardCon .newsList .sMore a {
+    color: #666;
+}
+
+.rewardCon .newsList .sMore a:hover {
+    color: #F30;
+}
+
+.rewardCon .newsList .no_reward {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rewardCon .giftList {
+    width: 488px;
+    float: right;
+}
+
+.rewardCon .giftList .gifePic {
+    height: 96px;
+    overflow: hidden;
+}
+
+.rewardCon .giftList .gifePic a {
+    float: left;
+    width: 72px;
+    height: 92px;
+    padding: 2px;
+    color: #2D87CC;
+    text-align: center;
+}
+
+.rewardCon .giftList .gifePic a img {
+    margin: 0 auto;
+    padding-top: 12px;
+    display: block;
+    vertical-align: top;
+}
+
+.rewardCon .giftList .gifePic a span.sTit {
+    line-height: 22px;
+    height: 22px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.rewardCon .giftList .gifePic a:hover, .rewardCon .giftList .gifePic a.cur {
+    padding: 0;
+    background-color: #FFF;
+    border: 2px solid #F60;
+    text-decoration: none;
+    color: #F30;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.rewardCon .giftList .gifePic .iLine {
+    float: left;
+    background-position: -70px -59px;
+    height: 96px;
+    width: 1px;
+    overflow: hidden;
+    margin: 0 13px;
+    display: inline;
+}
+
+.rewardCon .giftList .gifeInfor {
+    padding-top: 12px;
+}
+
+.rewardCon .giftList .gifeInfor .pTips {
+    border: 1px solid #EBE1C5;
+    background-color: #FFFCF0;
+    padding: 0 10px;
+    line-height: 28px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.rewardCon .giftList .gifeInfor .pTips em {
+    color: #F30;
+}
+
+.rewardCon .giftList .gifeInfor .pTips .goRecharge {
+    float: right;
+    color: #2D87CC;
+    font-family: simsun;
+    text-decoration: underline;
+}
+
+.rewardCon .giftList .gifeInfor .pTips .goRecharge:hover {
+    color: #F30;
+}
+
+.rewardCon .giftList .gifeInfor dl {
+    color: #666;
+}
+
+.rewardCon .giftList .gifeInfor dl dt {
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    z-index: 5;
+    width: 42px;
+    overflow: hidden;
+    padding-top: 12px;
+}
+
+.rewardCon .giftList .gifeInfor dl dd {
+    margin-top: -26px;
+    padding-left: 42px;
+    line-height: 26px;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .inputNum {
+    height: 24px;
+    border: 1px solid #D8D8D8;
+    background-color: #FFF;
+    padding: 0 10px;
+    float: left;
+    width: 40px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .sDes {
+    float: left;
+    padding-left: 10px;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .sDes em {
+    font-weight: 700;
+    color: #F30;
+    font-family: Tahoma;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .textareaTxt {
+    border: 1px solid #D8D8D8;
+    background-color: #FFF;
+    padding: 4px 10px;
+    line-height: 26px;
+    height: 52px;
+    width: 350px;
+    float: left;
+    color: #666;
+    font-size: 14px;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .rewardBtn {
+    float: right;
+    background-position: 0 -59px;
+    width: 64px;
+    height: 62px;
+    border: 0 none;
+    line-height: 62px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    color: #333;
+}
+
+.rewardCon .giftList .gifeInfor dl dd .rewardBtn:hover {
+    background-position: 0 -122px;
+    color: #333;
+    text-decoration: none;
+}
+
+.other-works-list {
+    padding-bottom: 15px;
+}
+
+.other-works-item {
+    float: left;
+    _display: inline;
+    width: 183px;
+}
+
+.other-works-item dt {
+    padding-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.other-works-item dt i {
+    display: inline-block;
+    float: left;
+    width: 3px;
+    height: 3px;
+    overflow: hidden;
+    background: #B2B2B2;
+    margin: 9px 7px 0 10px;
+}
+
+.other-works-item dt a {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.other-works-item dt a:hover {
+    color: #F30;
+}
+
+.other-works-item dd {
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.other-works-item dd.describe {
+    height: 36px;
+}
+
+.other-works-item dd.tag {
+    height: 23px;
+    line-height: 23px;
+}
+
+.other-works-item dd.tag a {
+    color: #2D87CC;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.other-works-item dd.tag a:hover {
+    color: #F30;
+}
+
+.pop_report {
+    width: 540px;
+    margin: -260px 0 0 -280px;
+    _margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + px) !important;
+}
+
+.pop_report .pop_in {
+    *zoom: 1;
+}
+
+.report-form {
+    padding: 20px 0;
+}
+
+.report-form .report-item {
+    padding-left: 126px;
+    margin-bottom: 18px;
+    *zoom: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.report-form .report-item .name {
+    float: left;
+    width: 116px;
+    padding-right: 10px;
+    line-height: 32px;
+    text-align: right;
+    margin-left: -126px;
+}
+
+.report-form .report-item .value {
+    *zoom: 1;
+}
+
+.report-form .report-item .value select {
+    width: 170px;
+    padding: 6px 4px 6px 8px;
+    border: 1px solid #C6CED6;
+    font-size: 14px;
+    background-color: #FFF;
+    -moz-box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+    -webkit-box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+    box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+}
+
+.report-form .report-item .value textarea {
+    width: 278px;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #C6CED6;
+    font-size: 14px;
+    background-color: #FFF;
+    -moz-box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+    -webkit-box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+    box-shadow: 1px 1px 2px rgba(204, 204, 204, 0.5) inset;
+    resize: none;
+    font-size: 12px;
+}
+
+.report-form .report-item .value textarea::-moz-placeholder {
+    color: #999;
+}
+
+.report-form .report-item .value textarea:-ms-input-placeholder {
+    color: #999;
+}
+
+.report-form .report-item .value textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+.report-form .report-item .value .form-error {
+    border-color: #FC4343;
+    -moz-transition: border-color 0.5s ease 0s;
+    -webkit-transition: border-color 0.5s ease 0s;
+    transition: border-color 0.5s ease 0s;
+}
+
+.report-form .report-item .value .error {
+    color: #FC4343;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: -8px;
+    *zoom: 1;
+    position: relative;
+}
+
+.report-form .report-action .btn-submit {
+    width: 170px;
+}
+
+.report-form .report-action p {
+    margin-top: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+.qrcode_box1 {
+    width: 119px;
+    height: 134px;
+    border: 1px solid #DDD;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    background: #FFF;
+}
+
+.qrcode_box1 img {
+    width: 82px;
+    height: 82px;
+    display: block;
+    margin: 17px auto 0;
+}
+
+.qrcode_box2 {
+    top: -230px;
+    left: -26px;
+}
