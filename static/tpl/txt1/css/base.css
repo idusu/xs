@@ -5028,5 +5028,6 @@ hr {
     font-weight: 400;
     color: #111;
     font-size: 21px;
+    max-width: 760px;
 }
 
