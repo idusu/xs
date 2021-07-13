@@ -1,1 +1,0 @@
-/*[CDN]*/function _txt_call(e){if(e.content=e.content||"内容获取失败，请刷新重试或者点击下一章",e.replace){var t=e.replace;for(var n in t){var c=new RegExp(t[n],"ig");e.content=e.content.replace(c,n)}}setTimeout(function(){var t=formatContent(e.content||"");document.getElementById("chapter-content").innerHTML=t.replace(/m\.zhaiyuedu\.com/gi,window.location.host).replace(/宅阅读/g,APP_NAME)},0)};

@@ -1,0 +1,640 @@
+.con_data .hd, .con_data_label .hd .i_line {
+    background: url(../images/extend_x_v2_1.png) repeat-x
+}
+
+.con_data .order_way li .sarrow, .con_data .show_way li .i_pic, .con_data .show_way li .i_txt, .con_data .show_way li.current .i_pic, .con_data .show_way li.current .i_txt, .con_data .show_way li a:hover .i_pic, .con_data .show_way li a:hover .i_txt {
+    background: url(../images/skin_book_cate_v2.png) no-repeat
+}
+
+.icon_android, .icon_iphone, .icon_qrcode {
+    background-image: url(../images/icon_download_1.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 16px;
+    margin-right: 6px
+}
+
+.icon_android {
+    background-position: 0 0
+}
+
+.icon_iphone {
+    background-position: -15px 0
+}
+
+.icon_qrcode {
+    background-position: -30px 0
+}
+
+.row {
+    margin-bottom: 20px
+}
+
+.col_a {
+    float: left;
+    width: 744px
+}
+
+.col_b {
+    float: right;
+    width: 216px
+}
+
+.col_b .fixed {
+    margin-left: 8px
+}
+
+.mod_rank .hd .i_story {
+    float: left;
+    margin: 5px 5px 0 0
+}
+
+.cate {
+    min-width: 990px;
+    margin-bottom: 15px
+}
+
+.cate .wrap_in {
+    padding-top: 12px;
+    background: #F8F8F8
+}
+
+.cate .cate_hd {
+    border-bottom: 1px solid #C7C7C7;
+    border-left: 1px solid #E3E3E3;
+    height: 35px
+}
+
+.cate .cate_tit {
+    margin-bottom: -1px
+}
+
+.cate .cate_tit li {
+    float: left;
+    border: 1px solid #E3E3E3;
+    border-width: 1px 1px 0 0;
+    background: #FFF;
+    width: 119px;
+    height: 34px;
+    font: 700 15px/34px simsun;
+    text-align: center
+}
+
+.cate .cate_tit li.cur {
+    position: relative;
+    border-color: #C7C7C7;
+    border-left: 1px solid #C7C7C7;
+    border-bottom: 1px solid #F8F8F8;
+    background: #F8F8F8;
+    margin-left: -1px
+}
+
+.cate .cate_tit li.cur a {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    border-top: 2px solid #3193CF;
+    color: #2D87CC;
+    padding-top: 0
+}
+
+.cate .cate_tit a {
+    float: left;
+    width: 119px;
+    height: 32px;
+    padding: 1px 0;
+    line-height: 32px;
+    color: #666
+}
+
+.cate .cate_tit a:hover {
+    color: #2D87CC;
+    text-decoration: none
+}
+
+.cate .cate_con {
+    padding: 0 0 15px
+}
+
+.cate .cate_con .item {
+    padding: 8px 18px 0;
+    font-family: simsun;
+    line-height: 18px
+}
+
+.cate .cate_con h4 {
+    float: left;
+    padding-top: 9px;
+    font-size: 12px;
+    color: #666
+}
+
+.cate .cate_con dl {
+    overflow: hidden;
+    zoom: 1
+}
+
+.cate .cate_con dt {
+    float: left
+}
+
+.cate .cate_con dd {
+    overflow: hidden;
+    zoom: 1
+}
+
+.cate .cate_con a {
+    float: left;
+    height: 18px;
+    margin: 9px 5px 0 0;
+    padding: 0 7px;
+    line-height: 18px;
+    color: #666;
+    white-space: nowrap
+}
+
+.cate .cate_con a:hover {
+    background: #81BBDF;
+    color: #FFF;
+    text-decoration: none
+}
+
+.cate .cate_con a.cur {
+    background: #81BBDF;
+    color: #FFF
+}
+
+.cate .cate_con li {
+    float: left;
+    width: 300px
+}
+
+.cate .cate_con li.words {
+    width: 350px
+}
+
+.con_data .hd {
+    background-position: 0 -10px;
+    height: 45px
+}
+
+.con_data .order_way {
+    float: left
+}
+
+.con_data .order_way li {
+    position: relative;
+    float: left;
+    height: 16px;
+    padding: 14px 20px 15px;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.con_data .order_way li .sarrow {
+    display: none;
+    position: absolute;
+    bottom: -16px;
+    _bottom: -1px;
+    left: 50%;
+    margin-left: -5px;
+    overflow: hidden;
+    background-position: 0 0;
+    width: 11px;
+    height: 6px
+}
+
+.con_data .order_way li .line {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    overflow: hidden;
+    background: #CCC;
+    width: 1px;
+    height: 14px
+}
+
+.con_data .order_way li a {
+    color: #666
+}
+
+.con_data .order_way li a:hover {
+    color: #F30
+}
+
+.con_data .order_way li.current {
+    font-weight: 700
+}
+
+.con_data .order_way li.current .sarrow {
+    display: block
+}
+
+.con_data .show_way {
+    float: right;
+    overflow: hidden;
+    border: 1px solid #D7D7D7;
+    border-left: 0 none;
+    background: #F9F9F9;
+    height: 20px;
+    margin: 11px 0 0 0;
+    line-height: 20px
+}
+
+.con_data .show_way i {
+    display: inline-block;
+    overflow: hidden;
+    width: 9px;
+    height: 9px;
+    margin: 6px 5px;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1
+}
+
+.con_data .show_way li {
+    float: left;
+    border-left: 1px solid #D7D7D7;
+    width: 50px
+}
+
+.con_data .show_way li .i_pic {
+    background-position: -20px 0
+}
+
+.con_data .show_way li .i_txt {
+    background-position: -30px 0
+}
+
+.con_data .show_way li.current {
+    background: #FFF
+}
+
+.con_data .show_way li.current .i_pic {
+    background-position: -20px -10px
+}
+
+.con_data .show_way li.current .i_txt {
+    background-position: -30px -10px
+}
+
+.con_data .show_way li a {
+    float: left;
+    width: 50px;
+    color: #666
+}
+
+.con_data .show_way li a:hover {
+    color: #666;
+    text-decoration: none;
+    zoom: 1
+}
+
+.con_data .show_way li a:hover .i_pic {
+    background-position: -20px -10px
+}
+
+.con_data .show_way li a:hover .i_txt {
+    background-position: -30px -10px
+}
+
+.con_data .tagTit {
+    float: left;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: microsoft yahei;
+    color: #333;
+    margin: 0 0 0 10px
+}
+
+.con_data .tagTit em {
+    color: #F30;
+    margin-right: 5px
+}
+
+.con_data .select-wrap {
+    background: #FAFAFA;
+    border: 1px solid #D8D8D8;
+    color: #666;
+    width: 96px;
+    line-height: 20px;
+    float: right;
+    margin-top: 16px;
+    font-family: simsun;
+    position: relative
+}
+
+.con_data .select-wrap dt {
+    padding-left: 10px;
+    height: 20px;
+    position: relative;
+    cursor: pointer
+}
+
+.con_data .select-wrap dt .sarrow {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    border: 5px dashed transparent;
+    border-top: 5px solid #666;
+    width: 0;
+    height: 0;
+    overflow: hidden
+}
+
+.con_data .select-wrap .select-opt {
+    display: none;
+    border-top: 1px solid #D8D8D8
+}
+
+.con_data .select-wrap .select-opt span {
+    display: block;
+    height: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 10px
+}
+
+.con_data .select-wrap .select-opt span:hover {
+    background: #E9E9E9
+}
+
+.con_data .selected dt .sarrow {
+    border: 5px dashed transparent;
+    border-bottom: 5px solid #666;
+    top: 3px
+}
+
+.con_data .selected .select-opt {
+    display: block
+}
+
+.con_data .tab_con {
+    display: none
+}
+
+.data_render {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed
+}
+
+.data_render .book_name {
+    width: 320px
+}
+
+.data_render .author {
+    width: 160px
+}
+
+.data_render .category {
+    width: 140px
+}
+
+.data_render th {
+    background: #F9F9F9;
+    height: 37px;
+    text-indent: 20px;
+    line-height: 37px;
+    color: #B8BFC5;
+    text-align: left
+}
+
+.data_render td {
+    border-bottom: 1px solid #EAEAEA;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 20px
+}
+
+.data_render .fix_txt {
+    height: 33px;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden
+}
+
+.data_render .fix_txt a {
+    color: #333;
+    vertical-align: middle
+}
+
+.data_render .fix_txt a:hover {
+    color: #F30
+}
+
+.data_render .fix_txt .i_original {
+    vertical-align: middle;
+    _position: absolute
+}
+
+.book_list {
+    overflow: hidden;
+    border-bottom: 1px solid #EAEAEA;
+    width: 744px;
+    padding-bottom: 18px
+}
+
+.book_list ul {
+    width: 744px;
+    margin: -4px 0 0 -20px
+}
+
+.book_list li {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    width: 352px;
+    height: 132px;
+    padding: 16px 0 0 20px;
+    line-height: 18px
+}
+
+.book_list .imgbox {
+    float: left;
+    width: 102px;
+    margin-right: 14px
+}
+
+.book_list .imgbox a {
+    overflow: hidden;
+    display: block;
+    padding: 1px;
+    width: 98px;
+    height: 128px
+}
+
+.book_list .imgbox a:hover {
+    border: 1px solid #888;
+    padding: 0
+}
+
+.book_list .info {
+    overflow: hidden;
+    zoom: 1;
+    color: #999
+}
+
+.book_list .info dt {
+    overflow: hidden;
+    height: 22px;
+    margin-bottom: 4px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.book_list .info dt a {
+    vertical-align: middle
+}
+
+.book_list .info dt .i_original {
+    vertical-align: middle;
+    _position: absolute
+}
+
+.book_list .info dd {
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px
+}
+
+.book_list .info span {
+    color: #666
+}
+
+.book_list .info .desc {
+    overflow: hidden;
+    margin-top: 8px;
+    height: 54px;
+    line-height: 18px
+}
+
+.book_list .more {
+    font-family: simsun;
+    color: #2D87CC
+}
+
+.book_list .more:hover {
+    color: #F30
+}
+
+.img_list2 ul {
+    margin-right: -12px
+}
+
+.img_list2 li {
+    float: left;
+    display: inline;
+    width: 80px;
+    height: 145px;
+    margin: 0 12px 7px 6px
+}
+
+.img_list2 img {
+    width: 80px;
+    height: 104px;
+    overflow: hidden;
+    display: block
+}
+
+.img_list2 span {
+    display: block;
+    width: 80px;
+    color: #666;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 5px
+}
+
+.img_list2 a {
+    color: #666;
+    overflow: hidden
+}
+
+.img_list2 a:hover {
+    color: #F30;
+    text-decoration: none;
+    zoom: 1
+}
+
+.img_list2 a:hover img {
+    border: 1px solid #888;
+    margin: -1px
+}
+
+.img_list2 a:hover span {
+    color: #F30
+}
+
+.con_data_label .hd {
+    height: auto;
+    background: none
+}
+
+.con_data_label .hd .p_label_list {
+    line-height: 26px;
+    font-size: 14px;
+    padding: 5px 0 5px 0
+}
+
+.con_data_label .hd .p_label_list img {
+    float: left;
+    width: 140px;
+    height: 92px;
+    padding-top: 7px
+}
+
+.con_data_label .hd .p_label_list span {
+    width: 590px;
+    float: right
+}
+
+.con_data_label .hd .t-summary {
+    background: #FAFAFA;
+    border: 1px solid #EBEBEB;
+    color: #8C8C8C;
+    font-size: 14px;
+    padding: 8px 14px;
+    line-height: 1.7em;
+    border-radius: 5px;
+    margin-top: 10px
+}
+
+.con_data_label .hd .i_line {
+    background-position: 0 -46px;
+    height: 10px;
+    display: block;
+    overflow: hidden
+}
+
+.con_data_label .hd .rela-tag {
+    padding: 10px 0;
+    *zoom: 1
+}
+
+.con_data_label .hd .rela-tag dt {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.con_data_label .hd .rela-tag dd a {
+    float: left;
+    margin: 2px 20px 2px 0;
+    color: #2D87CC
+}
+
+.con_data_label .hd .rela-tag dd a:hover {
+    color: #F30
+}
+
+.con_data_label .tagTit {
+    float: none;
+    display: block;
+    margin-left: 0
+}
